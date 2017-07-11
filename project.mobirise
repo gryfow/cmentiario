@@ -1,0 +1,2127 @@
+{
+  "settings": {
+    "name": "Cmentario",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "spacem",
+      "title": "SpaceM",
+      "styling": {
+        "primaryColor": "#D901ED",
+        "secondaryColor": "#46004C",
+        "successColor": "#2BE080",
+        "infoColor": "#1A5CEB",
+        "warningColor": "#E0C119",
+        "dangerColor": "#EB5A1A",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lato",
+        "textFont": "Lato",
+        "isRoundedButtons": true
+      }
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 35,
+    "versionPublish": "3.12.1",
+    "favicon": "",
+    "noImageResize": "",
+    "scrollAnimation": ""
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#989898"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#989898"
+            },
+            ".link, .dropdown-item": {
+              "color": "#989898"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#fff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#080808"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#1a1a1a!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#222222"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#989898",
+              "transition": "none"
+            },
+            ".navbar-toggler i, .navbar-toggler em, .navbar-toggler i:before, .navbar-toggler em:before, .navbar-toggler i:after, .navbar-toggler em:after": {
+              "background": "#989898"
+            },
+            ".navbar-toggler[aria-expanded=\"true\"] i, .navbar-toggler[aria-expanded=\"true\"] em": {
+              "background": "transparent"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#fff"
+            },
+            ".link[aria-expanded=\"true\"]": {
+              "color": "#fff!important"
+            },
+            ".dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#222!important"
+            }
+          },
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu2",
+          "_anchor": "menu2-0",
+          "_params": {
+            "bgColor": "#222222",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#989898",
+            "fontHoverColor": "#fff",
+            "fontActiveColor": "#222",
+            "transparent": false,
+            "sticky": true,
+            "logo": true
+          },
+          "contacts": "<a data-app-btn=\"true\" href=\"tel:+123 (456) 7890 123\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\" class=\"\"><span class=\"fa fa-phone mbr-iconfont mbr-iconfont-btn\"></span> +123 (456) 7890 123</a><a data-app-btn=\"true\" href=\"mailto:sample@sample.com\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\" class=\"\"></a>",
+          "icons": " <a data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" data-toolbar=\"-mbrFonts,-mbrFontSize\" class=\"\"><i class=\"icon-facebook\"></i></a>   ",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-white-455x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"onas.html\">O nas</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"usługi.html\">USŁUGI</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"zamow.html\">ZAMÓW</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"cennik.html\">CENNIK</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"realizacje.html\">REALIZACJE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"kontakt.html\">KONTAKT</a></li>"
+        },
+        {
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials2",
+          "_params": {
+            "autoplay": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "timeout": 5,
+            "slides": [
+              {
+                "active": true,
+                "image": "@THEME_PATH@/components/_images/header1.jpg",
+                "showText": true,
+                "text": "<br>Na zawsze w pamięci.<br>Pomożemy Ci dbać o miejsce<br>spoczynku Twoich bliskich.<br>",
+                "showTitle": true,
+                "title": ""
+              }
+            ],
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/c-mg-6066s-2000x1333.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.3",
+            "overlayColor": "#eee",
+            "showBullets": false
+          },
+          "_anchor": "testimonials2-2",
+          "articleLayout": false
+        },
+        {
+          "_styles": {
+            ".mbr-section__container .mbr-section-title": {
+              "color": "#fff"
+            },
+            ".mbr-section__container .mbr-section-subtitle": {
+              "color": "#a0a0a0"
+            },
+            ".mbr-price-figure": {
+              "font-size": "25px"
+            },
+            ".mbr-plan-title": {
+              "font-size": "20px"
+            }
+          },
+          "subtitle1": "Description",
+          "subtitle2": "Description",
+          "subtitle3": "Description",
+          "subtitle4": "Description",
+          "description1": "Mobirise is perfect for non-techies who are not familiar with web development.",
+          "description2": "Mobirise is perfect for non-techies who are not familiar with web development.",
+          "description3": "Mobirise is perfect for non-techies who are not familiar with web development.",
+          "description4": "Mobirise is perfect for non-techies who are not familiar with web development.",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "pricing-table1",
+          "_anchor": "pricing-table1-3",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "firstType": "",
+            "showButtons": true,
+            "secondType": "bg-primary",
+            "thirdType": "",
+            "fourthType": "hidden"
+          },
+          "title1": "PAKIET BRĄZOWY",
+          "label1": "Most Popular",
+          "currency1": "",
+          "price1": "OBSŁUGA NA ROCZNICE",
+          "period1": "",
+          "list1": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">Sprzątanie na rocznicę urodzin</li><li class=\"list-group-item\">Sprzątanie na rocznicę śmierci</li><li class=\"list-group-item\">Mycie i sprzątanie na święto zmarłych</li><li class=\"list-group-item\">Zapalamy znicz przy każdej wizycie</li><li class=\"list-group-item\"><br></li></ul>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">już od 250 zł</a>",
+          "title2": "PAKIET SREBRNY",
+          "label2": "Najbardziej Popularny",
+          "currency2": "",
+          "price2": "OBSŁUGA NA ŚWIĘTA",
+          "period2": "",
+          "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">Mycie i sprzątanie na Wielkanoc</li><li class=\"list-group-item\">Mycie i sprzątanie na Święto Zmarłych</li><li class=\"list-group-item\">Odśnieżanie na Boże Narodzenie</li><li class=\"list-group-item\">Zapalamy znicz przy każdej wizycie</li><li class=\"list-group-item\"><br></li></ul>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">już od 320 zł</a>",
+          "title3": "PAKIET ZŁOTY",
+          "label3": "Most Popular",
+          "currency3": "",
+          "price3": "OBSŁUGA CAŁOROCZNA",
+          "period3": "",
+          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">Sprzątanie co miesiąc</li><li class=\"list-group-item\">Mycie i sprzątanie na Wielkanoc</li><li class=\"list-group-item\">Mycie i sprzątanie na Święto Zmarłych</li><li class=\"list-group-item\">Odśnieżanie na Boże Narodzenie</li><li class=\"list-group-item\">Zapalamy znicz przy każdej wizycie</li></ul>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">już od 720 zł</a>",
+          "title4": "ULTIMATE",
+          "label4": "Most Popular",
+          "currency4": "$",
+          "price4": "99",
+          "period4": "Per Month",
+          "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio iste dignissimos ullam alias quidem debitis!</li><li class=\"list-group-item\">Lorem ipsum dolor sit amet, consectetur adipisicing.</li><li class=\"list-group-item\">Rectetur adipisicing elit. Ab, un</li></ul>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black\">view more</a>"
+        },
+        {
+          "title": "Steps to success",
+          "text": "Donec non augue eros. Praesent quis nunc metus. Duis vehicula nisl diam, in varius nibh consectetur eget. Sed quis magna id libero very molestie posuere. Mauris ac ligula eget quam",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content6",
+          "_anchor": "content6-4",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.75,
+            "overlayColor": "#151515",
+            "columns": "3",
+            "showSubtitle": true,
+            "showTitle": true,
+            "showText": true
+          },
+          "subtitle1": "",
+          "title1": "Usługi",
+          "text1": "Całoroczna opieka<br>Sprzątanie nagrobków<br>Renowacja liter<br>Sprzątanie po pogrzebach<br>Zapalenie zniczy, ustawianie kwiatów i wieńców<br>",
+          "subtitle2": "",
+          "title2": "Zasięg",
+          "text2": "Cmentarze w Gryfowie Śląskim<br>Cmentarze w Lwówku Śląskim<br>Cmentarze w Lubaniu",
+          "subtitle3": "",
+          "title3": "Kontakt",
+          "text3": "Masz pytania? Skontaktuj się z nami!<br>kontakt@cmentario.pl<br>tel. 666 666 666",
+          "subtitle4": "Subtitle4",
+          "title4": "Get project result",
+          "text4": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi nemo aliquid laboriosam vero neque rerum sequi aut maiores voluptatem numquam.",
+          "subtitle5": "Subtitle5",
+          "title5": "Get project result",
+          "text5": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam repellendus culpa consequatur expedita iusto delectus accusamus unde aliquam quis perspiciatis.",
+          "subtitle6": "Subtitle6",
+          "title6": "Get project result",
+          "text6": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ipsam dolores, illo quo corporis perferendis autem, rerum sunt ad quis? "
+        },
+        {
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "text1",
+          "_anchor": "text1-5",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showTitle": true,
+            "showText": true
+          },
+          "title": "Ku pamięci zmarłych",
+          "text": "Horacy pisał „Non omnis moriar” - nie wszystek umrę. Jak jednak rozumieć te słowa? <br><br>Każdy z nas podczas życia podąża swą własną ścieżką, zawiera określone przyjaźnie, zakłada rodzinę, popełnia pewne błędy. Poprzez swoje czyny zapisujemy się w pamięci zarówno najbliższych nam osób, jak i tych obcych, które obdarzyliśmy uśmiechem w momencie, gdy potrzebowali go najbardziej. Uwiecznieniem tej pamięci jest miejsce spoczynku, które stanowi swoisty pomnik ku czci oraz pamięci zmarłej osoby. <br><br>Miejsce spoczynku Najbliższych stanowi nie tylko określoną przestrzeń, ale także swoisty azyl, który zmusza do refleksji, przypomina spędzone razem chwile, zapewnia spokój ducha. Jest to miejsce, o które większość z nas chciałaby zadbać jak najlepiej i sprawić, by zawsze było czyste, zadbane, wolne od wszelakich skaz.<br>"
+        },
+        {
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "text1",
+          "_anchor": "text1-6",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showTitle": true,
+            "showText": true
+          },
+          "title": "Rozumiemy potencjalne trudności",
+          "text": "Na drodze mogą stanąć różnorakie przeszkody – znaczna odległość, kłopoty zdrowotne, podeszły wiek, a także multum innych, na które niestety często nie mamy wpływu. <br><br>Gwiazdą przewodnią firmy Biała Lilia oraz przyświecającym jej założeniu celem jest pomoc ludziom, którzy z indywidualnych przyczyn nie są w stanie zająć się nagrobkami swych Najbliższych w sposób, jaki uważają za słuszny. <br><br>Rozumiemy niedogodności, z którymi się Państwo borykają, potencjalne trudności, problemy, zmieniające się realia oraz nieprzewidziane zwroty wydarzeń. Za pośrednictwem naszej działalności mają Państwo możliwość zadbania o miejsce spoczynku swych Ukochanych. Jesteśmy w stanie zaopiekować się wskazanym przez Państwa grobem oraz jego najbliższym otoczeniem. Dbamy nie tylko o schludność, znicze oraz kwiaty, ale jesteśmy w stanie również dostosować się do indywidualnych Państwa oczekiwań oraz wymagań.<br>"
+        },
+        {
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "text1",
+          "_anchor": "text1-7",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showTitle": true,
+            "showText": true
+          },
+          "title": "Sprzątanie grobów - kompleksowa obsługa",
+          "text": "Cały proces jest dokumentowany, a następnie wysyłany do Państwa za sprawą poczty elektronicznej bądź tradycyjnej. Jako jedyni w Polsce prowadzimy swą działalność w dziewięciu województwach, a nasza oferta to nie tylko jednokrotne czyszczenie nagrobka, ale także całoroczne zajmowanie się nim w czuły, profesjonalny sposób. <br><br>Wiele osób zdecydowało się już na długoterminowe powierzenie miejsca spoczynku swych Ukochanych pod nasze skrzydła. Optymalna oraz kompleksowa obsługa udostępniona przez naszą firmę stanowi wynik nie tylko wieloletniego doświadczenia, ale także wychodzenia naprzeciw Państwa zapotrzebowań oraz najzwyklejszego, serdecznego ciepła, które bywa w tych momentach tak potrzebne, a jest go tak mało.<br>"
+        },
+        {
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo_white.png"
+            }
+          },
+          "adress": "198 West 21th Street, Suite 721, New York NY5109 Pacific Coast Highway, Los Angeles CA",
+          "phone": "<a href=\"tel:+12 (3) 456 7890 123\" class=\"adr-link\"><b>Phone:</b> +12 (3) 456 7890 123</a>",
+          "email": "<a href=\"mailto:sample@sample.com\" class=\"adr-link\"><b>Email:</b> sample@sample.com</a>",
+          "titleNews": "our news",
+          "mediaNews1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_1.jpg"
+            }
+          },
+          "textNews1": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "mediaNews2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_2.jpg"
+            }
+          },
+          "textNews2": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "titleTweet": "lastest links",
+          "tweet1": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet2": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet3": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet4": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "titleInst": "instagram",
+          "mediaInst1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_1.jpg"
+            }
+          },
+          "mediaInst2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_2.jpg"
+            }
+          },
+          "mediaInst3": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_3.jpg"
+            }
+          },
+          "mediaInst4": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_4.jpg"
+            }
+          },
+          "mediaInst5": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_5.jpg"
+            }
+          },
+          "mediaInst6": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_6.jpg"
+            }
+          },
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-8",
+          "_params": {
+            "bgColor": "#212121",
+            "bgColorRadio": true
+          },
+          "copyright": "2017 Cmentario"
+        }
+      ]
+    },
+    "onas.html": {
+      "settings": {
+        "title": "O nas"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#989898"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#989898"
+            },
+            ".link, .dropdown-item": {
+              "color": "#989898"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#fff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#080808"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#1a1a1a!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#222222"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#989898",
+              "transition": "none"
+            },
+            ".navbar-toggler i, .navbar-toggler em, .navbar-toggler i:before, .navbar-toggler em:before, .navbar-toggler i:after, .navbar-toggler em:after": {
+              "background": "#989898"
+            },
+            ".navbar-toggler[aria-expanded=\"true\"] i, .navbar-toggler[aria-expanded=\"true\"] em": {
+              "background": "transparent"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#fff"
+            },
+            ".link[aria-expanded=\"true\"]": {
+              "color": "#fff!important"
+            },
+            ".dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#222!important"
+            }
+          },
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu2",
+          "_anchor": "menu2-9",
+          "_params": {
+            "bgColor": "#222222",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#989898",
+            "fontHoverColor": "#fff",
+            "fontActiveColor": "#222",
+            "transparent": false,
+            "sticky": true,
+            "logo": true
+          },
+          "contacts": "<a data-app-btn=\"true\" href=\"tel:+123 (456) 7890 123\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\" class=\"\"><span class=\"fa fa-phone mbr-iconfont mbr-iconfont-btn\"></span> +123 (456) 7890 123</a><a data-app-btn=\"true\" href=\"mailto:sample@sample.com\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\" class=\"\"></a>",
+          "icons": " <a data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" data-toolbar=\"-mbrFonts,-mbrFontSize\" class=\"\"><i class=\"icon-facebook\"></i></a>   ",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-white-455x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"onas.html\">O nas</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"usługi.html\">USŁUGI</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"zamow.html\">ZAMÓW</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"cennik.html\">CENNIK</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"realizacje.html\">REALIZACJE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"kontakt.html\">KONTAKT</a></li>"
+        },
+        {
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo_white.png"
+            }
+          },
+          "adress": "198 West 21th Street, Suite 721, New York NY5109 Pacific Coast Highway, Los Angeles CA",
+          "phone": "<a href=\"tel:+12 (3) 456 7890 123\" class=\"adr-link\"><b>Phone:</b> +12 (3) 456 7890 123</a>",
+          "email": "<a href=\"mailto:sample@sample.com\" class=\"adr-link\"><b>Email:</b> sample@sample.com</a>",
+          "titleNews": "our news",
+          "mediaNews1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_1.jpg"
+            }
+          },
+          "textNews1": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "mediaNews2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_2.jpg"
+            }
+          },
+          "textNews2": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "titleTweet": "lastest links",
+          "tweet1": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet2": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet3": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet4": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "titleInst": "instagram",
+          "mediaInst1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_1.jpg"
+            }
+          },
+          "mediaInst2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_2.jpg"
+            }
+          },
+          "mediaInst3": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_3.jpg"
+            }
+          },
+          "mediaInst4": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_4.jpg"
+            }
+          },
+          "mediaInst5": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_5.jpg"
+            }
+          },
+          "mediaInst6": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_6.jpg"
+            }
+          },
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-a",
+          "_params": {
+            "bgColor": "#212121",
+            "bgColorRadio": true
+          },
+          "copyright": "2017 Cmentario"
+        },
+        {
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@THEME_PATH@/components/_images/info.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-f",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "3",
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/c-mg-6066s-2000x1333.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.35,
+            "overlayColor": "#151515",
+            "showTitle": false,
+            "showSubtitle": false,
+            "showButtons": false
+          },
+          "title": "<em>SpaceM</em> Page Builder",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis id eligendi assumenda, cumque optio veniam eos perferendis molestias explicabo odit. Libero, suscipit. Quae praesentium, tempore minima quod tempora odio cumque nam mollitia dolores possimus porro omnis aliquid deserunt magnam non voluptates? Beatae quod illum ullam unde, quae, distinctio architecto modi.",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">learn more</a>"
+        },
+        {
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "text1",
+          "_anchor": "text1-c",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showTitle": true,
+            "showText": true
+          },
+          "title": "Opieka nad grobami w całej Polsce",
+          "text": "\"Śpieszmy się kochać ludzi tak szybko odchodzą\" ks. J. Twardowski<br> <br><br>Większość z nas chciałaby samodzielnie zaopiekować się miejscem spoczynku Swoich Najbliższych i czują że sami zrobią to najlepiej. <br>Wiek, stan zdrowia duże odległości stają się przeszkodą i powodują że czujemy bezradność. <br>Firma Biała Lilia powstała aby pomóc w niedogodnościach z jakimi Państwo się borykacie, my rozumiemy każde utrudnienie<br>i obecnie zmieniające się realia.<br><br>Za naszym pośrednictwem możecie Państwo zadbać o czystość grobów i ich otoczenia, o znicze i kwiaty. Dajemy świadectwo troski i szacunku jakim Państwo darzycie zmarłych. Oprócz standardowych usług jesteśmy otwarci na Państwa oczekiwania, odpowiadamy na każdego maila i staramy się proponować niestandardowe rozwiązania. Wykonujemy wszelkie prace na indywidualne życzenie Klienta.<br><br>Udokumentowaniem wykonanej pracy są zdjęcia które przesyłamy do Państwa e-mailem lub pocztą. <br>Jako jedyni w Polsce działamy w dziewięciu województwach i oferujemy pakiety całorocznej opieki nad grobami w atrakcyjnych cenach.<br><br>Dzięki wysokiej jakości naszych usług cieszymy się zaufaniem wielu zadowolonych Klientów, którzy rokrocznie powierzają nam pod opiekę <br>miejsca spoczynku Swoich Najbliższych.<br><br><br>Serdecznie zapraszamy do zapoznania się formularzem zamówień.<br>"
+        },
+        {
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery2",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": "2",
+            "images": [
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dscn1070jpg7543-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dscn1070jpg7543-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dscn1056jpg8147jpg6730-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dscn1056jpg8147jpg6730-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              }
+            ],
+            "spacing": 0,
+            "showText": false,
+            "filter": false,
+            "bgColor": "#FFFFFF",
+            "filterBgColor": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery2-d",
+          "articleLayout": false,
+          "allItem": "All",
+          "arrowLeft": "@PROJECT_PATH@/assets/images/arrow-left.svg",
+          "arrowRight": "@PROJECT_PATH@/assets/images/arrow-right.svg"
+        }
+      ]
+    },
+    "usługi.html": {
+      "settings": {
+        "title": "Usługi"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#989898"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#989898"
+            },
+            ".link, .dropdown-item": {
+              "color": "#989898"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#fff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#080808"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#1a1a1a!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#222222"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#989898",
+              "transition": "none"
+            },
+            ".navbar-toggler i, .navbar-toggler em, .navbar-toggler i:before, .navbar-toggler em:before, .navbar-toggler i:after, .navbar-toggler em:after": {
+              "background": "#989898"
+            },
+            ".navbar-toggler[aria-expanded=\"true\"] i, .navbar-toggler[aria-expanded=\"true\"] em": {
+              "background": "transparent"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#fff"
+            },
+            ".link[aria-expanded=\"true\"]": {
+              "color": "#fff!important"
+            },
+            ".dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#222!important"
+            }
+          },
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu2",
+          "_anchor": "menu2-g",
+          "_params": {
+            "bgColor": "#222222",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#989898",
+            "fontHoverColor": "#fff",
+            "fontActiveColor": "#222",
+            "transparent": false,
+            "sticky": true,
+            "logo": true
+          },
+          "contacts": "<a data-app-btn=\"true\" href=\"tel:+123 (456) 7890 123\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\" class=\"\"><span class=\"fa fa-phone mbr-iconfont mbr-iconfont-btn\"></span> +123 (456) 7890 123</a><a data-app-btn=\"true\" href=\"mailto:sample@sample.com\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\" class=\"\"></a>",
+          "icons": " <a data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" data-toolbar=\"-mbrFonts,-mbrFontSize\" class=\"\"><i class=\"icon-facebook\"></i></a>   ",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-white-455x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"onas.html\">O nas</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"usługi.html\">USŁUGI</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"zamow.html\">ZAMÓW</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"cennik.html\">CENNIK</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"realizacje.html\">REALIZACJE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"kontakt.html\">KONTAKT</a></li>"
+        },
+        {
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo_white.png"
+            }
+          },
+          "adress": "198 West 21th Street, Suite 721, New York NY5109 Pacific Coast Highway, Los Angeles CA",
+          "phone": "<a href=\"tel:+12 (3) 456 7890 123\" class=\"adr-link\"><b>Phone:</b> +12 (3) 456 7890 123</a>",
+          "email": "<a href=\"mailto:sample@sample.com\" class=\"adr-link\"><b>Email:</b> sample@sample.com</a>",
+          "titleNews": "our news",
+          "mediaNews1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_1.jpg"
+            }
+          },
+          "textNews1": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "mediaNews2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_2.jpg"
+            }
+          },
+          "textNews2": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "titleTweet": "lastest links",
+          "tweet1": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet2": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet3": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet4": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "titleInst": "instagram",
+          "mediaInst1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_1.jpg"
+            }
+          },
+          "mediaInst2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_2.jpg"
+            }
+          },
+          "mediaInst3": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_3.jpg"
+            }
+          },
+          "mediaInst4": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_4.jpg"
+            }
+          },
+          "mediaInst5": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_5.jpg"
+            }
+          },
+          "mediaInst6": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_6.jpg"
+            }
+          },
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-h",
+          "_params": {
+            "bgColor": "#212121",
+            "bgColorRadio": true
+          },
+          "copyright": "2017 Cmentario"
+        },
+        {
+          "title4": "<a href=\"http://mobirise.com\">mitchel jobs</a>",
+          "subtitle4": "<a href=\"http://mobirise.com\">application</a>",
+          "text4": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum dolorem quo in, animi iste magnam, saepe accusantium veritatis vitae perferendis delectus eligendi officia nulla pariatur incidunt culpa vel doloribus rem.",
+          "media4": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@THEME_PATH@/components/_images/news_item_4.jpg"
+            }
+          },
+          "date4": "09/09/2016",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "news1",
+          "_anchor": "news1-i",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "3",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/2.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.75,
+            "overlayColor": "#151515",
+            "showImages": true,
+            "showSubtitle": false,
+            "showTitle": true,
+            "showText": true,
+            "showDate": false
+          },
+          "media1": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@PROJECT_PATH@/assets/images/sprzatanie-nagrobkow-520-d-1024x268.jpg",
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "subtitle1": "<a href=\"http://mobirise.com\">application</a>",
+          "title1": "Sprzątanie nagrobków",
+          "text1": "W ramach usługi sprzątania nagrobków usuwamy wypalone znicze oraz zwiędłe kwiaty, odśnieżamy pomnik w sezonie zimowym, porządkujemy i grabimy teren wokół grobu (suche liście itp.). Do każdej usługi sprzątania zapalamy jeden znicz gratis. Po wykonaniu usługi przesyłamy dokumentacje fotograficzna przed i po wykonaniu usługi.",
+          "date1": "10/09/2016",
+          "media2": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@PROJECT_PATH@/assets/images/mycie-nagrobkow-392-d-1024x268.jpg",
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "subtitle2": "<a href=\"http://mobirise.com\">application</a>",
+          "title2": "Mycie nagrobków",
+          "text2": "Bez względu na materiał z jakiego jest wykonany nagrobek, należy czyścić go systematycznie przynajmniej raz na 4 miesiące.&nbsp;W Polsce najczęściej spotykanymi materiałami z jakich wykonane są nagrobki to granit, lastryko, marmur, piaskowiec. Podstawowe informacje dotyczące pielęgnacji każdego materiału prezentujemy poniżej. Do każdej usługi mycia zapalamy jeden znicz gratis. Po wykonaniu usługi przesyłamy dokumentacje fotograficzna przed i po wykonaniu usługi.<br>",
+          "date2": "09/09/2016",
+          "media3": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@PROJECT_PATH@/assets/images/opieka-nad-miejscami-pamieci-narodowej-883-d-1024x268.jpg",
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "subtitle3": "<a href=\"http://mobirise.com\">application</a>",
+          "title3": "Opieka nad miejscami pamięci&nbsp;",
+          "text3": "LW ramach Opieki nad Miejscami Pamięci Narodowej zapewnimy utrzymanie czystości i porządkowanie otoczenia obiektów , oczyszczanie pomników z mchów i traw oraz roztopionych świec i zniczy. Zajmują się także sprzątaniem i pielęgnacją trawników oraz żywopłotów oraz usuwaniem połamanych gałęzi i konarów drzew.",
+          "date3": "08/09/2016"
+        }
+      ]
+    },
+    "zamow.html": {
+      "settings": {
+        "title": "Zamów"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#989898"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#989898"
+            },
+            ".link, .dropdown-item": {
+              "color": "#989898"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#fff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#080808"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#1a1a1a!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#222222"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#989898",
+              "transition": "none"
+            },
+            ".navbar-toggler i, .navbar-toggler em, .navbar-toggler i:before, .navbar-toggler em:before, .navbar-toggler i:after, .navbar-toggler em:after": {
+              "background": "#989898"
+            },
+            ".navbar-toggler[aria-expanded=\"true\"] i, .navbar-toggler[aria-expanded=\"true\"] em": {
+              "background": "transparent"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#fff"
+            },
+            ".link[aria-expanded=\"true\"]": {
+              "color": "#fff!important"
+            },
+            ".dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#222!important"
+            }
+          },
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu2",
+          "_anchor": "menu2-j",
+          "_params": {
+            "bgColor": "#222222",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#989898",
+            "fontHoverColor": "#fff",
+            "fontActiveColor": "#222",
+            "transparent": false,
+            "sticky": true,
+            "logo": true
+          },
+          "contacts": "<a data-app-btn=\"true\" href=\"tel:+123 (456) 7890 123\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\" class=\"\"><span class=\"fa fa-phone mbr-iconfont mbr-iconfont-btn\"></span> +123 (456) 7890 123</a><a data-app-btn=\"true\" href=\"mailto:sample@sample.com\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\" class=\"\"></a>",
+          "icons": " <a data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" data-toolbar=\"-mbrFonts,-mbrFontSize\" class=\"\"><i class=\"icon-facebook\"></i></a>   ",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-white-455x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"onas.html\">O nas</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"usługi.html\">USŁUGI</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"zamow.html\">ZAMÓW</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"cennik.html\">CENNIK</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"realizacje.html\">REALIZACJE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"kontakt.html\">KONTAKT</a></li>"
+        },
+        {
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo_white.png"
+            }
+          },
+          "adress": "198 West 21th Street, Suite 721, New York NY5109 Pacific Coast Highway, Los Angeles CA",
+          "phone": "<a href=\"tel:+12 (3) 456 7890 123\" class=\"adr-link\"><b>Phone:</b> +12 (3) 456 7890 123</a>",
+          "email": "<a href=\"mailto:sample@sample.com\" class=\"adr-link\"><b>Email:</b> sample@sample.com</a>",
+          "titleNews": "our news",
+          "mediaNews1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_1.jpg"
+            }
+          },
+          "textNews1": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "mediaNews2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_2.jpg"
+            }
+          },
+          "textNews2": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "titleTweet": "lastest links",
+          "tweet1": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet2": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet3": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet4": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "titleInst": "instagram",
+          "mediaInst1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_1.jpg"
+            }
+          },
+          "mediaInst2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_2.jpg"
+            }
+          },
+          "mediaInst3": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_3.jpg"
+            }
+          },
+          "mediaInst4": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_4.jpg"
+            }
+          },
+          "mediaInst5": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_5.jpg"
+            }
+          },
+          "mediaInst6": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_6.jpg"
+            }
+          },
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-k",
+          "_params": {
+            "bgColor": "#212121",
+            "bgColorRadio": true
+          },
+          "copyright": "2017 Cmentario"
+        },
+        {
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "subscribe1",
+          "_anchor": "subscribe1-l",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "6",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header4.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.7,
+            "overlayColor": "#222"
+          },
+          "title": "Formularz zamówienia",
+          "form": {
+            "action": "andrzej@subocz.pl",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": false,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-black\" role=\"button\" type=\"submit\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">Zamów</a>"
+        }
+      ]
+    },
+    "cennik.html": {
+      "settings": {
+        "title": "Cennik"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#989898"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#989898"
+            },
+            ".link, .dropdown-item": {
+              "color": "#989898"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#fff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#080808"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#1a1a1a!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#222222"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#989898",
+              "transition": "none"
+            },
+            ".navbar-toggler i, .navbar-toggler em, .navbar-toggler i:before, .navbar-toggler em:before, .navbar-toggler i:after, .navbar-toggler em:after": {
+              "background": "#989898"
+            },
+            ".navbar-toggler[aria-expanded=\"true\"] i, .navbar-toggler[aria-expanded=\"true\"] em": {
+              "background": "transparent"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#fff"
+            },
+            ".link[aria-expanded=\"true\"]": {
+              "color": "#fff!important"
+            },
+            ".dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#222!important"
+            }
+          },
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu2",
+          "_anchor": "menu2-m",
+          "_params": {
+            "bgColor": "#222222",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#989898",
+            "fontHoverColor": "#fff",
+            "fontActiveColor": "#222",
+            "transparent": false,
+            "sticky": true,
+            "logo": true
+          },
+          "contacts": "<a data-app-btn=\"true\" href=\"tel:+123 (456) 7890 123\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\" class=\"\"><span class=\"fa fa-phone mbr-iconfont mbr-iconfont-btn\"></span> +123 (456) 7890 123</a><a data-app-btn=\"true\" href=\"mailto:sample@sample.com\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\" class=\"\"></a>",
+          "icons": " <a data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" data-toolbar=\"-mbrFonts,-mbrFontSize\" class=\"\"><i class=\"icon-facebook\"></i></a>   ",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-white-455x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"onas.html\">O nas</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"usługi.html\">USŁUGI</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"zamow.html\">ZAMÓW</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"cennik.html\">CENNIK</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"realizacje.html\">REALIZACJE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"kontakt.html\">KONTAKT</a></li>"
+        },
+        {
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo_white.png"
+            }
+          },
+          "adress": "198 West 21th Street, Suite 721, New York NY5109 Pacific Coast Highway, Los Angeles CA",
+          "phone": "<a href=\"tel:+12 (3) 456 7890 123\" class=\"adr-link\"><b>Phone:</b> +12 (3) 456 7890 123</a>",
+          "email": "<a href=\"mailto:sample@sample.com\" class=\"adr-link\"><b>Email:</b> sample@sample.com</a>",
+          "titleNews": "our news",
+          "mediaNews1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_1.jpg"
+            }
+          },
+          "textNews1": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "mediaNews2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_2.jpg"
+            }
+          },
+          "textNews2": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "titleTweet": "lastest links",
+          "tweet1": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet2": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet3": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet4": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "titleInst": "instagram",
+          "mediaInst1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_1.jpg"
+            }
+          },
+          "mediaInst2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_2.jpg"
+            }
+          },
+          "mediaInst3": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_3.jpg"
+            }
+          },
+          "mediaInst4": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_4.jpg"
+            }
+          },
+          "mediaInst5": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_5.jpg"
+            }
+          },
+          "mediaInst6": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_6.jpg"
+            }
+          },
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-n",
+          "_params": {
+            "bgColor": "#212121",
+            "bgColorRadio": true
+          },
+          "copyright": "2017 Cmentario"
+        },
+        {
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "text1",
+          "_anchor": "text1-o",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": 1,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showTitle": true,
+            "showText": true
+          },
+          "title": "Cennik",
+          "text": "Poniżej prezentujemy cennik naszych usług. Zapraszamy do kontaktu jeśli nie znaleźliście Państwo interesującej Was usługi lub interesujący Państwa cmentarz nie znajduje się na naszej liście. Jesteśmy w stanie zorganizować opiekę miejsca spoczynku Państwa Najbliższych na terenie całej Polski.<br><br>Wyceny usług specjalnych przesyłamy na indywidualne zapytanie.<br><br>Jeśli potrzebujecie Państwo ceny w innych walutach prosimy o kontakt.<br>"
+        },
+        {
+          "title": "FAQ",
+          "text": "Suspendisse gravida tristique ante vel pretium. Curabitur pellente sque non urna in euismod. Pellentesque vestibulum, enim a accumsan convallis, enim sem iaculis sem",
+          "category1": "Aliquam erat volutpat",
+          "category2": "Phasellus non ullamcorper",
+          "category3": "Curabitur faucibus viverra",
+          "category4": "Fusce mattis iaculis",
+          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseOne\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>This is a accordion Title 1</a>",
+          "title2": "well quality management",
+          "title3": "cooperative work",
+          "title4": "brainstorming",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "accordion3",
+          "_anchor": "accordion3-q",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 1,
+            "showTitle": true,
+            "showText": true,
+            "tabsLeft": "1",
+            "tabsCenter": "1",
+            "tabsRight": "1",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.75,
+            "overlayColor": "#151515",
+            "columns": "3"
+          },
+          "titleL1": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">Sprzątanie<br><span></span></a>",
+          "textL1": "<p>Grób pojedynczy\t70 PLN</p><p>Grób podwójny\t90 PLN</p><p>Grobowiec\t110 PLN</p>",
+          "titleL2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Collapsible Group Item #2<span></span></a>",
+          "textL2": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleL3": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Collapsible Group Item #3<span></span></a>",
+          "textL3": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleL4": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
+          "textL4": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleL5": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
+          "textL5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleL6": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textL6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC1": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">Sprzątanie + mycie<br><span></span></a>",
+          "textC1": "<p>Grób pojedynczy\t95 PLN</p><p>Grób podwójny\t110 PLN</p><p>Grobowiec\t140 PLN</p>",
+          "titleC2": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Collapsible Group Item #2<span></span></a>",
+          "textC2": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC3": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Collapsible Group Item #3<span></span></a>",
+          "textC3": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC4": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
+          "textC4": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC5": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
+          "textC5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC6": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textC6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR1": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">Usługa dodatkowa<span></span></a>",
+          "textR1": "<p>Odszukanie grobu\t50 PLN</p><p>Sprzątanie po pogrzebie\t50 PLN</p><p>Renowacja liter\t2 PLN/litera</p>",
+          "titleR2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Collapsible Group Item #2<span></span></a>",
+          "textR2": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR3": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Collapsible Group Item #3<span></span></a>",
+          "textR3": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR4": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
+          "textR4": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR5": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
+          "textR5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR6": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textR6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>"
+        }
+      ]
+    },
+    "realizacje.html": {
+      "settings": {
+        "title": "Realizacje"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#989898"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#989898"
+            },
+            ".link, .dropdown-item": {
+              "color": "#989898"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#fff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#080808"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#1a1a1a!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#222222"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#989898",
+              "transition": "none"
+            },
+            ".navbar-toggler i, .navbar-toggler em, .navbar-toggler i:before, .navbar-toggler em:before, .navbar-toggler i:after, .navbar-toggler em:after": {
+              "background": "#989898"
+            },
+            ".navbar-toggler[aria-expanded=\"true\"] i, .navbar-toggler[aria-expanded=\"true\"] em": {
+              "background": "transparent"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#fff"
+            },
+            ".link[aria-expanded=\"true\"]": {
+              "color": "#fff!important"
+            },
+            ".dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#222!important"
+            }
+          },
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu2",
+          "_anchor": "menu2-r",
+          "_params": {
+            "bgColor": "#222222",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#989898",
+            "fontHoverColor": "#fff",
+            "fontActiveColor": "#222",
+            "transparent": false,
+            "sticky": true,
+            "logo": true
+          },
+          "contacts": "<a data-app-btn=\"true\" href=\"tel:+123 (456) 7890 123\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\" class=\"\"><span class=\"fa fa-phone mbr-iconfont mbr-iconfont-btn\"></span> +123 (456) 7890 123</a><a data-app-btn=\"true\" href=\"mailto:sample@sample.com\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\" class=\"\"></a>",
+          "icons": " <a data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" data-toolbar=\"-mbrFonts,-mbrFontSize\" class=\"\"><i class=\"icon-facebook\"></i></a>   ",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-white-455x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"onas.html\">O nas</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"usługi.html\">USŁUGI</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"zamow.html\">ZAMÓW</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"cennik.html\">CENNIK</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"realizacje.html\">REALIZACJE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"kontakt.html\">KONTAKT</a></li>"
+        },
+        {
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo_white.png"
+            }
+          },
+          "adress": "198 West 21th Street, Suite 721, New York NY5109 Pacific Coast Highway, Los Angeles CA",
+          "phone": "<a href=\"tel:+12 (3) 456 7890 123\" class=\"adr-link\"><b>Phone:</b> +12 (3) 456 7890 123</a>",
+          "email": "<a href=\"mailto:sample@sample.com\" class=\"adr-link\"><b>Email:</b> sample@sample.com</a>",
+          "titleNews": "our news",
+          "mediaNews1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_1.jpg"
+            }
+          },
+          "textNews1": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "mediaNews2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_2.jpg"
+            }
+          },
+          "textNews2": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "titleTweet": "lastest links",
+          "tweet1": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet2": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet3": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet4": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "titleInst": "instagram",
+          "mediaInst1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_1.jpg"
+            }
+          },
+          "mediaInst2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_2.jpg"
+            }
+          },
+          "mediaInst3": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_3.jpg"
+            }
+          },
+          "mediaInst4": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_4.jpg"
+            }
+          },
+          "mediaInst5": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_5.jpg"
+            }
+          },
+          "mediaInst6": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_6.jpg"
+            }
+          },
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-s",
+          "_params": {
+            "bgColor": "#212121",
+            "bgColorRadio": true
+          },
+          "copyright": "2017 Cmentario"
+        },
+        {
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "title4",
+          "_anchor": "title4-u",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.75,
+            "overlayColor": "#151515",
+            "showSubtitle": false,
+            "showTitle": true,
+            "showSeparator": true,
+            "showText": false,
+            "showButtons": false
+          },
+          "subtitle": "Subtitle",
+          "title": "<em>Title</em> with Text and Buttons",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quis quidem laboriosam, enim rem nobis ab laudantium. Aliquam, ipsum, impedit accusantium ex cum facilis ut tempora vero nesciunt mollitia ullam, quisquam quia cupiditate esse repudiandae. Vero nisi velit sint minima et adipisci culpa iusto ea obcaecati! Voluptatibus consectetur nulla, asperiores.",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-black\" role=\"button\">learn more</a>"
+        },
+        {
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "title4",
+          "_anchor": "title4-v",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": 0,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.75,
+            "overlayColor": "#151515",
+            "showSubtitle": false,
+            "showTitle": true,
+            "showSeparator": true,
+            "showText": false,
+            "showButtons": false
+          },
+          "subtitle": "Subtitle",
+          "title": "<span style=\"font-weight: normal;\"><i>Realizacje</i></span>",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quis quidem laboriosam, enim rem nobis ab laudantium. Aliquam, ipsum, impedit accusantium ex cum facilis ut tempora vero nesciunt mollitia ullam, quisquam quia cupiditate esse repudiandae. Vero nisi velit sint minima et adipisci culpa iusto ea obcaecati! Voluptatibus consectetur nulla, asperiores.",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-black\" role=\"button\">learn more</a>"
+        },
+        {
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "2",
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1ajpg8931-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/1ajpg8931-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Sprzątanie",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2ajpg2272-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/2ajpg2272-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/3ajpg1501-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/3ajpg1501-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/4ajpg4347-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/4ajpg4347-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/5ajpg368-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/5ajpg368-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20141224145839jpg5723-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20141224145839jpg5723-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20141224145548jpg4436-2000x3551-800x1420.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20141224145548jpg4436-2000x3551.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20141224145214jpg8871-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20141224145214jpg8871-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ],
+            "spacing": "5",
+            "showText": false,
+            "filter": false,
+            "bgColor": "#FFFFFF",
+            "showBullets": true
+          },
+          "_anchor": "gallery1-t",
+          "articleLayout": false,
+          "allItem": "All",
+          "arrowLeft": "@PROJECT_PATH@/assets/images/arrow-left.svg",
+          "arrowRight": "@PROJECT_PATH@/assets/images/arrow-right.svg"
+        }
+      ]
+    },
+    "kontakt.html": {
+      "settings": {
+        "title": "Kontakt"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#989898"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#989898"
+            },
+            ".link, .dropdown-item": {
+              "color": "#989898"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#fff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#080808"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#1a1a1a!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#222222"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#989898",
+              "transition": "none"
+            },
+            ".navbar-toggler i, .navbar-toggler em, .navbar-toggler i:before, .navbar-toggler em:before, .navbar-toggler i:after, .navbar-toggler em:after": {
+              "background": "#989898"
+            },
+            ".navbar-toggler[aria-expanded=\"true\"] i, .navbar-toggler[aria-expanded=\"true\"] em": {
+              "background": "transparent"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#fff"
+            },
+            ".link[aria-expanded=\"true\"]": {
+              "color": "#fff!important"
+            },
+            ".dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#222!important"
+            }
+          },
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu2",
+          "_anchor": "menu2-w",
+          "_params": {
+            "bgColor": "#222222",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#989898",
+            "fontHoverColor": "#fff",
+            "fontActiveColor": "#222",
+            "transparent": false,
+            "sticky": true,
+            "logo": true
+          },
+          "contacts": "<a data-app-btn=\"true\" href=\"tel:+123 (456) 7890 123\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\" class=\"\"><span class=\"fa fa-phone mbr-iconfont mbr-iconfont-btn\"></span> +123 (456) 7890 123</a><a data-app-btn=\"true\" href=\"mailto:sample@sample.com\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\" class=\"\"></a>",
+          "icons": " <a data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" data-toolbar=\"-mbrFonts,-mbrFontSize\" class=\"\"><i class=\"icon-facebook\"></i></a>   ",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-white-455x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"onas.html\">O nas</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"usługi.html\">USŁUGI</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"zamow.html\">ZAMÓW</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"cennik.html\">CENNIK</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"realizacje.html\">REALIZACJE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"kontakt.html\">KONTAKT</a></li>"
+        },
+        {
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo_white.png"
+            }
+          },
+          "adress": "198 West 21th Street, Suite 721, New York NY5109 Pacific Coast Highway, Los Angeles CA",
+          "phone": "<a href=\"tel:+12 (3) 456 7890 123\" class=\"adr-link\"><b>Phone:</b> +12 (3) 456 7890 123</a>",
+          "email": "<a href=\"mailto:sample@sample.com\" class=\"adr-link\"><b>Email:</b> sample@sample.com</a>",
+          "titleNews": "our news",
+          "mediaNews1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_1.jpg"
+            }
+          },
+          "textNews1": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "mediaNews2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_2.jpg"
+            }
+          },
+          "textNews2": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "titleTweet": "lastest links",
+          "tweet1": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet2": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet3": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet4": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "titleInst": "instagram",
+          "mediaInst1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_1.jpg"
+            }
+          },
+          "mediaInst2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_2.jpg"
+            }
+          },
+          "mediaInst3": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_3.jpg"
+            }
+          },
+          "mediaInst4": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_4.jpg"
+            }
+          },
+          "mediaInst5": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_5.jpg"
+            }
+          },
+          "mediaInst6": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_6.jpg"
+            }
+          },
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-x",
+          "_params": {
+            "bgColor": "#212121",
+            "bgColorRadio": true
+          },
+          "copyright": "2017 Cmentario"
+        },
+        {
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 320,
+              "src": "@THEME_PATH@/components/_images/about.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-y",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "3",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.75,
+            "overlayColor": "#151515",
+            "showTitle": true,
+            "showText": true,
+            "googleMap": {
+              "address": "Gryfów Śląski",
+              "placeId": "ChIJD2lrCcorD0cRVeyWHu5xxKY",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "title": "Masz pytania?",
+          "text": "Zapraszamy do kontaktu",
+          "form": {
+            "title": "MESSAGE",
+            "action": "andrzej@subocz.pl",
+            "alerts": {
+              "success": "Dziękujemy za przesłanie wiadomości!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Imię*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Wiadomość"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-black\" type=\"submit\" role=\"button\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">Wyślij</a>",
+          "title1": "<span class=\"etl-icon icon-map-pin mbr-iconfont mbr-iconfont-btn\"></span>adres",
+          "text1": "Gryfów Śląski",
+          "title2": "<span class=\"etl-icon icon-envelope mbr-iconfont mbr-iconfont-btn\"></span>e-mail",
+          "text2": "kontakt@cmentario.pl",
+          "title3": "<span class=\"etl-icon icon-phone mbr-iconfont mbr-iconfont-btn\"></span>Telefon",
+          "text3": "<a href=\"tel:+138 (095) 6526 538\">+138 (095) 6526 538</a>"
+        }
+      ]
+    }
+  }
+}
